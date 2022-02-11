@@ -1,0 +1,7 @@
+mvn clean install -PautoInstallSinglePackage
+
+
+mvn clean install -PautoInstallPackage -pl <project_name(s)> -am
+
+
+mvn clean install -PautoInstallSinglePackage,cloud
